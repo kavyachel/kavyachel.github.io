@@ -1,0 +1,134 @@
+
+.type {
+  display: inline-block;
+}
+
+.type > span {
+  color: #FF8C8C;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif-bold;
+  display:grid;
+  overflow: hidden;
+  height:1.2em;
+  position: relative; top: 220px; left:450px;
+  text-align:center;
+  font-size: 45px;
+}
+.navbar-expand-sm .offcanvas .offcanvas-body {
+  display: flex;
+  flex-grow: 0;
+  padding: 0;
+  overflow-y: visible;
+}
+
+.flex-grow-1 {
+  flex-grow: 1 !important;
+}
+
+
+.type span span {
+  width:10%;
+  max-width: max-content;
+  overflow: hidden;
+  height:inherit;
+  word-break: break-all;
+  animation:
+    c 0.5s infinite steps(1),
+    t 2s linear infinite alternate,
+    m 12s steps(3) infinite;
+}
+
+.type span span:before {
+  content:"";
+  color: #000000;
+  display:inline-block;
+}
+
+@keyframes t{
+  50%,100% {width:100%}
+}
+@keyframes c{
+  0%,100%{box-shadow:5px 0 0 #0000}
+  50%    {box-shadow:2px 0 0 black  }
+}
+@keyframes m{
+  100% {transform:translateY(-300%)}
+}
+
+h1 {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  text-align: center;
+  font-size: 72px;
+  margin: 0px;
+  color: rgb(0,0,0);
+}
+
+h2 {
+  font-size: 45px;
+  text-align: center;
+  position:relative; top: 260px;
+  color: rgb(0,0,0);
+}
+.title {
+  position:relative; top:300px;
+}
+.loading {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 50%;
+}
+.aboutme {
+  position:relative; top:90px;
+
+}
+
+body {
+  margin: 0px;
+  font-size: 36px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
+}
+.portfolio-carousel {
+  align-self: center;
+  margin-top: 100px;
+  margin-left: 20vh;
+  width: 70vh
+  height: 20vh;
+}
+
+.cetner {
+  text-align: center;
+  position:relative; top:210px;
+}
+
+.div {
+  background: rgb(90,90,90);
+  background: linear-gradient(0deg, rgba(90,90,90,1) 0%, rgba(35,35,35,1) 100%);
+  height: 100vh;
+  width: 100vh;
+}
+
+.about-me {
+  background: rgb(145,145,145);
+  background: linear-gradient(0deg, rgba(145,145,145,1) 0%, rgba(90,90,90,1) 100%);
+  height: 100vh;
+  width: 100vh;
+
+}
+
+.portfolio {
+  background: rgb(200,200,200);
+  background: linear-gradient(0deg, rgba(200,200,200,1) 0%, rgba(145,145,145,1) 100%);
+  height: 100vh;
+  width: 100vh;
+
+}
+.contact {
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(200,200,200,1) 100%);
+  height: 100vh;
+  width: 100vh;
+
+}
