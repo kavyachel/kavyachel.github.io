@@ -5796,7 +5796,7 @@ document.getElementById("keyboard-cont").addEventListener("click", (e) => {
         key = "Backspace";
     }
 
-    document.dispatchEvent(new KeyboardEvent("keypress", {'key': key}));
+    document.dispatchEvent(new KeyboardEvent("keydown", {'key': key}));
 });
 
 document.addEventListener("keydown", (event) => {
