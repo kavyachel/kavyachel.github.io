@@ -77,10 +77,27 @@ body {
 }
 
 .project-1 {
-  position: absolute; top: 850px; left:20px;
+  position: absolute; top: 850px; left:50px;
   border: 5px solid #F637EC;
   border-radius: 20px;
+  width: 614.6px;
+  height: 579.6px;
 }
 .project-1:hover {
   border-color: #555;
+}
+.project-2 {
+  position: absolute; top: 900px; right:50px;
+  border: 5px solid #FBB454;
+  border-radius: 20px;
+  width: 440px;
+  height: 609.6px;
+}
+.project-2:hover {
+  border-color: #555;
+}
+.copyright {
+  position: absolute;
+  left: 550px;
+  font-weight: bold;
 }
