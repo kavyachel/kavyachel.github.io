@@ -7,76 +7,125 @@
     <link rel="icon" href="daisy.ico">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="js/bootstrap.js"
+    <link href="js/bootstrap.js">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Rubik:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.9/fullpage.min.css" integrity="sha512-Go0fX6Al6Eab+N7QbSFHYBpwdcU2rbfONUcbRIS4z+9yzLlj7Xj8ao2BAOPE9Qtxdl+7iq04xzzcF4OTOWoUWg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "easeInOutCubic". -->
+
   </head>
 
   <! <div class = "loading screen">
   <!  <span class = "loading"> <!</span>
   <! </div>
+  <nav class="navbar bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" id = "name" href="index.html">kavya.</a>
+      <a class="navbar-brand" id = "name2" href="index.html">kavya.</a>
+    </div>
+  </nav>
 
 
-<!body>
-
-<nav class="navbar bg-light fixed-top">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="about-me.html">
-      ABOUT
-    </a>
-    <a class="navbar-brand" id = "name" href="index.html">kavya.</a>
-    <a class="navbar-brand" id = "name2" href="index.html">kavya.</a>
-    <a class="navbar-brand" href="contact.html">CONTACT</a>
-
-</nav>
 
 <body>
 
 
-    <div class= "intro" id = "bg">
-      <h2 class="isa"> HI, I'M </h2>
-
-      <h2 class = "portfolio" > ↓ HERE ARE SOME THINGS I'VE BEEN WORKING ON. ↓</h2>
-
-      <div class = "container">
-        <a href = "index.html">
-            <img src = "project-1.png" class = "project-1">
-            <div class = "overlay">
-              <div class = text> PORTFOLIO WEBSITE </div>
-            </div>
-        </a>
-      </div>
-
-      <div class = "container-2">
-        <a href = "wordle-copy/index.html">
-            <img src = "project-2.png" class = "project-2">
-            <div class = "overlay-2">
-              <div class = text-2> WORDLE CLONE </div>
-            </div>
-        </a>
-      </div>
-
-      <div class = "container-3">
-          <img src = "project-3.png" class = "project-3">
-          <div class = "overlay-3">
-            <div class = text-3> SPOTIFY UI CLONE </div>
-          </div>
-      </div>
-      <div class = "container-4">
-          <img src = "project-4.png" class ="project-4">
-          <div class = "overlay-4">
-            <div class = text-4> CODEART #1: FABRIC </div>
-          </div>
-      </div>
-      <p class = "copyright"> © KAVYA SUBRAMANIAN </p>
-
+<div id = "fullPage">
+    <div class = "section active s1">
+        <img src = "art.gif" class = "gif">
+        <h2> ↓ HERE ARE SOME THINGS I'VE BEEN WORKING ON. ↓</h2>
     </div>
 
+
+
+    <div class = "section s2">
+        <h2> portfolio. </h2>
+
+        <div class = "container">
+        <div class="row justify-content-md-center">
+          <div class="col">
+            <div class = "tile-1">
+              <a href = "index.html">
+                <img src = "project-1.png" class = "project-1">
+                <div class = "overlay-1">
+                  <div class = "text"> PORTFOLIO WEBSITE </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class = "tile-2">
+              <a href = "wordle-copy/index.html">
+                <img src = "project-2.png" class = "project-2">
+                <div class = "overlay-2">
+                  <div class = "text"> WORDLE CLONE </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-md-center">
+          <div class="col">
+            <div class = "tile-3">
+              <img src = "project-3.png" class = "project-3">
+              <div class = "overlay-3">
+                <div class = "text"> SPOTIFY UI CLONE </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class = "tile-4">
+              <img src = "project-4.png" class ="project-4">
+              <div class = "overlay-4">
+                <div class = "text"> GENERATIVE ART #1: FABRIC </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-md-center">
+          <div class="col">
+            <div class = "tile-5">
+              <img src = "project-5.gif" class = "project-5">
+              <div class = "overlay-5">
+                <div class = "text"> SIMPLE RGB COLOR MAKER APP </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+   </div>
+
+
+
+   <div class = "section s3">
+      <h2> about me. </h2>
+      <p> I AM A RISING JUNIOR AT THE UNIVERSITY OF NORTH CAROLINA AT CHAPEL HILL STUDYING COMPUTER SCIENCE, MATHEMATICS AND STUDIO ART.
+        FUNDAMENTALLY, I LOVE TO CREATE — WHETHER THAT'S IN MY LAPTOP'S IDE OR A LOCAL ART STUDIO! </p>
+      <p> © KAVYA SUBRAMANIAN </p>
+    </div>
+
+    <div class = "section s4">
+      <h2> contact </h2>
+    </div>
+</div>
+
+
+  <script src="vendors/easings.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.9/fullpage.min.js" integrity="sha512-JSVRnP8UFs0ieN/cvP9v4vmW1CotIaEKKN7W+4JaKNrllZolTv2aJfVGn4BFdfZ1jRZxgTAAaXWdlZbEm9iwFA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  <script src="javascript.js"> </script>
+  <script>
+    new fullpage('#fullPage', {
+      autoScrolling: true,
+      navigation: true,
+      anchors: ['section1', 'section2', 'section3', 'section4'],
+      navigationTooltips: ['Home', 'Portfolio', 'About Me', 'Contact'],
+      sectionsColor: ['#76BA99', '#ADCF9F', '#CED89E', '#FFDCAE'],
+      showActiveTooltip: true,
+      scrollingSpeed: 1000
+
+    })
+  </script>
   </body>
 </html>
