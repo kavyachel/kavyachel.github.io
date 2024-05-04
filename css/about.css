@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color:#FAF9F6;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+
+@media screen and (min-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+    .about-content {
+        padding-left: 40px;
+    }
+}
+
+.about-content {
+    padding: 40px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color:#FAF9F6;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    background-color:#FAF9F6;
+    align-items: center;
+    justify-content: left;
+}
+
+.icon {
+    width: 60px;
+    margin-right: 1rem;
+    border-radius: 20px;
+}
+
+.icon :hover {
+    transform: scale(1.1);
+}
+.header {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}

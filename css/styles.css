@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+
+main {
+    background-color:#FAF9F6;
+    padding: 2rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+    justify-content: center !important;
+    align-items: center;
+}
+
+.header {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.row {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    grid-gap: 1rem;
+    justify-content: center !important;
+}
+
+.card {
+    justify-self: center !important;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    
+}
+.img-top {
+    height: 200px;
+    overflow: hidden;
+}
+.card-text {
+    margin-bottom: 0.25rem;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+.lg {
+    font-size: 22px;
+    padding: 0% !important;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .row {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr 1fr 1fr !important;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color:#FAF9F6;
+}

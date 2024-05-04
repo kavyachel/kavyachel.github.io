@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+html,
+body {
+  height: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color:#FAF9F6;
+    align-items: center;
+    padding: 30px;
+    height: 90vh;   
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color:#FAF9F6;
+}
+.card {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.card-text {
+    margin-bottom: 10px;
+}
+
+.header {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
